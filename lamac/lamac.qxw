@@ -100,15 +100,22 @@
    <Head Fixture="3" X="1" Y="1">0</Head>
   </FixtureGroup>
   <Function Type="Scene" Name="bar - color - red" ID="0">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,255,3,0,4,0,5,255,6,0,7,0,8,255,9,0,10,0,11,255,12,0,13,0,14,255,15,0,16,0,17,255,18,0,19,0,20,255,21,0,22,0,23,255,24,0,25,0</FixtureVal>
   </Function>
+  <Function Type="Scene" Name="POS ROVNO (Copy)" ID="1">
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
+   <FixtureVal ID="0">0,127,1,0,2,142,3,0</FixtureVal>
+   <FixtureVal ID="1">0,127,1,0,2,142,3,0</FixtureVal>
+   <FixtureVal ID="2">0,127,1,0,2,142,3,0</FixtureVal>
+   <FixtureVal ID="3">0,127,1,0,2,142,3,0</FixtureVal>
+  </Function>
   <Function Type="Scene" Name="03 - pos - gule" ID="3">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">0,111,2,213</FixtureVal>
   </Function>
   <Function Type="Scene" Name="* col - white cto" ID="7">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">5,255,6,209,7,117</FixtureVal>
    <FixtureVal ID="1">5,255,6,209,7,117</FixtureVal>
    <FixtureVal ID="2">5,255,6,209,7,117</FixtureVal>
@@ -119,35 +126,35 @@
    <FixtureVal ID="6">0,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="bar - color - WHITE" ID="9">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,255,3,255,4,255,5,255,6,255,7,255,8,255,9,255,10,255,11,255,12,255,13,255,14,255,15,255,16,255,17,255,18,255,19,255,20,255,21,255,22,255,23,255,24,255,25,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - red" ID="11">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,0,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - blue" ID="12">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - white cto" ID="13">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,209,7,117</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - green" ID="14">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - white" ID="15">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,213,7,122</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - white ctb" ID="16">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,255,7,200</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - cyan" ID="22">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,0,6,255,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="beam - shutter on" ID="23">
@@ -184,7 +191,7 @@
    <FixtureVal ID="3">8,240</FixtureVal>
   </Function>
   <Function Type="Scene" Name="bar - color - green" ID="29">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">3,255,6,255,9,255,12,255,15,255,18,255,21,255,24,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - beam - dimmer off" ID="30">
@@ -212,11 +219,11 @@
    <FixtureVal ID="2">9,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="bar - color - orange" ID="37">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,255,3,137,4,2,5,255,6,137,7,2,8,255,9,137,10,2,11,255,12,137,13,2,14,255,15,137,16,2,17,255,18,137,19,2,20,255,21,137,22,2,23,255,24,137,25,2</FixtureVal>
   </Function>
   <Function Type="Scene" Name="bar - color - cyan" ID="38">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,0,3,255,4,255,5,0,6,255,7,255,8,0,9,255,10,255,11,0,12,255,13,255,14,0,15,255,16,255,17,0,18,255,19,255,20,0,21,255,22,255,23,0,24,255,25,255</FixtureVal>
   </Function>
   <Function Type="EFX" Name="kruh" ID="43">
@@ -245,7 +252,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -260,225 +267,225 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>69</Offset>
+    <Offset>89</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
   </Function>
   <Function Type="Scene" Name="bar - color - blue" ID="44">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,0,3,0,4,255,5,0,6,0,7,255,8,0,9,0,10,255,11,0,12,0,13,255,14,0,15,0,16,255,17,0,18,0,19,255,20,0,21,0,22,255,23,0,24,0,25,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - warm yellow" ID="45">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,175,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - yellow" ID="46">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,212,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - turquise" ID="47">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,0,6,255,7,146</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - lavender" ID="48">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - mauve" ID="49">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,0,7,161</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - magenta" ID="50">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,0,7,138</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - pink" ID="51">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,255,6,53,7,94</FixtureVal>
   </Function>
   <Function Type="Scene" Name="01 - col - green2" ID="52">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">4,0,5,0,6,255,7,115</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - red" ID="53">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,0,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - blue" ID="54">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - white cto" ID="55">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,209,7,117</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - green" ID="56">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - white" ID="57">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,213,7,122</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - white ctb" ID="58">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,255,7,200</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - cyan" ID="59">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,0,6,255,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - warm yellow" ID="60">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,175,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - yellow" ID="61">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,212,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - turquise" ID="62">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,0,6,255,7,146</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - lavender" ID="63">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - mauve" ID="64">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,0,7,161</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - magenta" ID="65">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,0,7,138</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - pink" ID="66">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,255,6,53,7,94</FixtureVal>
   </Function>
   <Function Type="Scene" Name="02 - col - green2" ID="67">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="1">4,0,5,0,6,255,7,115</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - red" ID="68">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,0,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - blue" ID="69">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - white cto" ID="70">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,209,7,117</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - green" ID="71">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - white" ID="72">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,213,7,122</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - white ctb" ID="73">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,255,7,200</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - cyan" ID="74">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,0,6,255,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - warm yellow" ID="75">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,175,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - yellow" ID="76">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,212,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - turquise" ID="77">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,0,6,255,7,146</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - lavender" ID="78">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - mauve" ID="79">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,0,7,161</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - magenta" ID="80">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,0,7,138</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - pink" ID="81">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,255,6,53,7,94</FixtureVal>
   </Function>
   <Function Type="Scene" Name="03 - col - green2" ID="82">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="2">4,0,5,0,6,255,7,115</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - red" ID="83">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,0,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - blue" ID="84">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - white cto" ID="85">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,209,7,117</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - green" ID="86">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,0,6,255,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - white" ID="87">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,213,7,122</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - white ctb" ID="88">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,255,7,200</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - cyan" ID="89">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,0,6,255,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - warm yellow" ID="90">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,175,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - yellow" ID="91">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,212,7,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - turquise" ID="92">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,0,6,255,7,146</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - lavender" ID="93">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,0,7,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - mauve" ID="94">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,0,7,161</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - magenta" ID="95">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,0,7,138</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - pink" ID="96">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,255,6,53,7,94</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - col - green2" ID="97">
-   <Speed Duration="6800" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="6800" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="3">4,0,5,0,6,255,7,115</FixtureVal>
   </Function>
   <Function Type="Scene" Name="04 - beam - dimmer off" ID="98">
@@ -494,7 +501,7 @@
    <FixtureVal ID="3">9,255</FixtureVal>
   </Function>
   <Function Type="Scene" Name="bar - color - YELLOW" ID="101">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,255,3,255,4,0,5,255,6,255,7,0,8,255,9,255,10,0,11,255,12,255,13,0,14,255,15,255,16,0,17,255,18,255,19,0,20,255,21,255,22,0,23,255,24,255,25,0</FixtureVal>
   </Function>
   <Function Type="EFX" Name="pan" ID="102">
@@ -523,7 +530,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -538,36 +545,36 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>80</Offset>
+    <Offset>100</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
   </Function>
   <Function Type="RGBMatrix" Name="gre bar" ID="103">
-   <Speed Duration="290" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1410" FadeOut="940" FadeIn="940"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4278255360</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function Type="Scene" Name="bar - color - pink" ID="104">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="940" FadeIn="940"/>
    <FixtureVal ID="4">2,255,3,0,4,127,5,255,6,0,7,127,8,255,9,0,10,127,11,255,12,0,13,127,14,255,15,0,16,127,17,255,18,0,19,127,20,255,21,0,22,127,23,255,24,0,25,127</FixtureVal>
   </Function>
   <Function Type="RGBMatrix" Name="blu bar" ID="105">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1490" FadeOut="940" FadeIn="940"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4278190335</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function Type="RGBMatrix" Name="red bar" ID="106">
-   <Speed Duration="290" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1410" FadeOut="940" FadeIn="940"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4294901760</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
@@ -578,10 +585,10 @@
    <Step Number="3">52</Step>
   </Function>
   <Function Type="RGBMatrix" Name="yel bar" ID="108">
-   <Speed Duration="290" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1410" FadeOut="940" FadeIn="940"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4294967040</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
@@ -611,7 +618,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -626,32 +633,32 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>88</Offset>
+    <Offset>108</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
   </Function>
   <Function Type="RGBMatrix" Name="whi bar" ID="110">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1490" FadeOut="940" FadeIn="940"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4294967295</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function Type="RGBMatrix" Name="vio bar" ID="111">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1490" FadeOut="940" FadeIn="940"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4294902015</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function Type="RGBMatrix" Name="org bar" ID="112">
-   <Speed Duration="290" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1410" FadeOut="940" FadeIn="940"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4294945280</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
@@ -660,57 +667,57 @@
    <FixtureVal ID="6">0,0</FixtureVal>
   </Function>
   <Function Type="RGBMatrix" Name="cya bar" ID="115">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="1490" FadeOut="940" FadeIn="940"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Two Columns</Algorithm>
+   <Algorithm Type="Script">Full Columns</Algorithm>
    <MonoColor>4278255615</MonoColor>
    <FixtureGroup>0</FixtureGroup>
   </Function>
   <Function Type="Scene" Name="POS ROVNO" ID="117">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,127,1,0,2,127,3,0</FixtureVal>
    <FixtureVal ID="1">0,127,1,0,2,127,3,0</FixtureVal>
    <FixtureVal ID="2">0,127,1,0,2,127,3,0</FixtureVal>
    <FixtureVal ID="3">0,127,1,0,2,127,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS DOLE" ID="118">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,126,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="1">0,126,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="2">0,126,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="3">0,126,1,0,2,50,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS VLAVO" ID="119">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,144,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="1">0,144,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="2">0,144,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="3">0,144,1,0,2,50,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS VPRAVO" ID="124">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,109,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="1">0,109,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="2">0,109,1,0,2,50,3,0</FixtureVal>
    <FixtureVal ID="3">0,109,1,0,2,50,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS VPREDU" ID="125">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,127,1,0,2,88,3,0</FixtureVal>
    <FixtureVal ID="1">0,127,1,0,2,88,3,0</FixtureVal>
    <FixtureVal ID="2">0,127,1,0,2,88,3,0</FixtureVal>
    <FixtureVal ID="3">0,127,1,0,2,88,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS VPREDU VLAVO" ID="126">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,140,1,0,2,80,3,0</FixtureVal>
    <FixtureVal ID="1">0,140,1,0,2,80,3,0</FixtureVal>
    <FixtureVal ID="2">0,140,1,0,2,80,3,0</FixtureVal>
    <FixtureVal ID="3">0,140,1,0,2,80,3,0</FixtureVal>
   </Function>
   <Function Type="Scene" Name="POS VPREDU VPRAVO" ID="127">
-   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="0" FadeOut="3210" FadeIn="3210"/>
    <FixtureVal ID="0">0,113,1,0,2,80,3,0</FixtureVal>
    <FixtureVal ID="1">0,113,1,0,2,80,3,0</FixtureVal>
    <FixtureVal ID="2">0,113,1,0,2,80,3,0</FixtureVal>
@@ -742,7 +749,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -757,7 +764,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>69</Offset>
+    <Offset>89</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -788,7 +795,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -803,7 +810,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>80</Offset>
+    <Offset>100</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -834,7 +841,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -849,7 +856,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>69</Offset>
+    <Offset>89</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -880,7 +887,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -895,7 +902,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>80</Offset>
+    <Offset>100</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -926,7 +933,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -941,7 +948,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>88</Offset>
+    <Offset>108</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -972,7 +979,7 @@
     <Intensity>255</Intensity>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed Duration="9560" FadeOut="0" FadeIn="0"/>
+   <Speed Duration="10000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -987,7 +994,7 @@
     <Phase>90</Phase>
    </Axis>
    <Axis Name="Y">
-    <Offset>88</Offset>
+    <Offset>108</Offset>
     <Frequency>3</Frequency>
     <Phase>0</Phase>
    </Axis>
@@ -2476,7 +2483,7 @@
    <Step Number="3">94</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BIE-ZLT" ID="400">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2498,7 +2505,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">160</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BIE-CER" ID="401">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2520,7 +2527,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">176</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BIE-MOD" ID="402">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2542,7 +2549,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">192</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BIE-BEL" ID="403">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2564,7 +2571,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">208</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BIE-FIA" ID="404">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2586,7 +2593,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">224</Step>
   </Function>
   <Function Type="Chaser" Name="CHA ZLT-CER" ID="405">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2608,7 +2615,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">240</Step>
   </Function>
   <Function Type="Chaser" Name="CHA ZLT-MOD" ID="406">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2630,7 +2637,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">256</Step>
   </Function>
   <Function Type="Chaser" Name="CHA ZLT-BEL" ID="407">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2652,7 +2659,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">272</Step>
   </Function>
   <Function Type="Chaser" Name="CHA ZLT-FIA" ID="408">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2674,7 +2681,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">288</Step>
   </Function>
   <Function Type="Chaser" Name="CHA CER-MOD" ID="409">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2696,7 +2703,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">304</Step>
   </Function>
   <Function Type="Chaser" Name="CHA CER-BEL" ID="410">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2718,7 +2725,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">320</Step>
   </Function>
   <Function Type="Chaser" Name="CHA CER-FIA" ID="411">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2740,7 +2747,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">336</Step>
   </Function>
   <Function Type="Chaser" Name="CHA MOD-BEL" ID="412">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2762,7 +2769,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">352</Step>
   </Function>
   <Function Type="Chaser" Name="CHA MOD-FIA" ID="413">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -2784,7 +2791,7 @@
    <Step Number="15" FadeOut="0" FadeIn="0" Hold="0">368</Step>
   </Function>
   <Function Type="Chaser" Name="CHA BEL-FIA" ID="414">
-   <Speed Duration="0" FadeOut="10000" FadeIn="10000"/>
+   <Speed Duration="3360" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
@@ -3037,7 +3044,7 @@
      </Appearance>
      <Input Universe="2" Channel="16"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="5">4</Channel>
      </Level>
      <Playback>
@@ -3055,7 +3062,7 @@
      </Appearance>
      <Input Universe="2" Channel="17"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="5">5</Channel>
      </Level>
      <Playback>
@@ -3073,7 +3080,7 @@
      </Appearance>
      <Input Universe="2" Channel="18"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="5">6</Channel>
      </Level>
      <Playback>
@@ -3091,7 +3098,7 @@
      </Appearance>
      <Input Universe="2" Channel="19"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="5">7</Channel>
      </Level>
      <Playback>
@@ -3109,7 +3116,7 @@
      </Appearance>
      <Input Universe="2" Channel="20"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="0">9</Channel>
      </Level>
      <Playback>
@@ -3127,7 +3134,7 @@
      </Appearance>
      <Input Universe="2" Channel="21"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="1">9</Channel>
      </Level>
      <Playback>
@@ -3145,7 +3152,7 @@
      </Appearance>
      <Input Universe="2" Channel="22"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="255">
       <Channel Fixture="2">9</Channel>
      </Level>
      <Playback>
@@ -3229,7 +3236,7 @@
      </Appearance>
      <Input Universe="1" Channel="5"/>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Level</SliderMode>
-     <Level HighLimit="255" LowLimit="0" Value="0">
+     <Level HighLimit="255" LowLimit="0" Value="3">
       <Channel Fixture="4">2</Channel>
       <Channel Fixture="4">5</Channel>
       <Channel Fixture="4">8</Channel>
@@ -4005,7 +4012,7 @@
      <Font>Default</Font>
     </Appearance>
     <WindowState Width="170" X="180" Y="495" Height="170" Visible="True"/>
-    <AllowChildren>False</AllowChildren>
+    <AllowChildren>True</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
     <Collapsed>False</Collapsed>
@@ -4092,6 +4099,19 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
      <WindowState Width="50" X="60" Y="110" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="186" Caption="POS ROVNO (Copy)">
+     <Function ID="1"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="50" X="10" Y="10" Height="50" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>

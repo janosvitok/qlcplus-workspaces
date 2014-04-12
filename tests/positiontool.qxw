@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Output Plugin="ArtNet" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0">
+    <Input Plugin="MIDI" Line="0" Profile="Behringer BCF2000"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <ChannelsGroup Name="Pan" ID="0" Value="0">0,0</ChannelsGroup>
+  <ChannelsGroup Name="Tilt" ID="1" Value="0">0,2</ChannelsGroup>
+  <Function Type="Scene" Name="New Scene 0" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <ChannelGroups>0,1</ChannelGroups>
+   <FixtureVal ID="0">0,83,1,122,2,193,3,53</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <XYPad ID="0" Caption="XY Pad" InvertedAppearance="0">
+    <Pan Position="0"/>
+    <Tilt Position="0"/>
+    <WindowState Width="230" X="0" Y="0" Height="230" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </XYPad>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

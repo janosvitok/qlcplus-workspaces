@@ -1,0 +1,74 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.5.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>0</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Function Type="Scene" ID="0" Name="New Scene 0">
+   <Speed FadeIn="0" Duration="0" FadeOut="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" ID="1" Name="New Scene 0 (Copy)">
+   <Speed FadeIn="0" Duration="0" FadeOut="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button ID="0" Caption="New Scene 0" Icon="">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Y="0" Height="50" Visible="True" Width="50" X="0"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Button ID="1" Caption="New Scene 0 (Copy)" Icon="">
+    <Function ID="1"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Y="25" Height="50" Visible="True" Width="50" X="85"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Height="1080" Width="1920"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

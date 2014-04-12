@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Input Plugin="MIDI" Line="1" Profile="Behringer BCF2000"/>
+    <Output Plugin="DMX USB" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>3 Channel</Mode>
+   <ID>1</ID>
+   <Name>Gigabar II</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Event Bar LED</Model>
+   <Mode>25 Channel Mode</Mode>
+   <ID>2</ID>
+   <Name>Event Bar LED</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>25</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="New Scene 0" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,184,1,138,2,110,3,50</FixtureVal>
+   <FixtureVal ID="2">0,109,1,240,2,101,3,184,5,109,6,240,7,101,8,184,10,109,11,240,12,101,13,184,15,109,16,240,17,101,18,184</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <XYPad ID="0" Caption="sdfsdfsdfs" InvertedAppearance="0">
+    <Fixture ID="0" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Pan Position="103">
+     <Input Universe="0" Channel="81"/>
+    </Pan>
+    <Tilt Position="144">
+     <Input Universe="0" Channel="82"/>
+    </Tilt>
+    <WindowState Width="230" X="0" Y="0" Height="230" Visible="True"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </XYPad>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

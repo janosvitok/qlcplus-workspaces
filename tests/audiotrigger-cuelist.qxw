@@ -1,0 +1,92 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>0</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="New Scene 0">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="New Scene 0 (Copy)">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="New Scene 0 (Copy) (Copy)">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Chaser" Name="New Chaser 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="4294967294"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step FadeIn="0" Number="0" Hold="0" FadeOut="0">2</Step>
+   <Step FadeIn="0" Number="1" Hold="0" FadeOut="0">1</Step>
+   <Step FadeIn="0" Number="2" Hold="0" FadeOut="0">0</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <CueList Caption="Cue list" ID="0">
+    <Chaser>3</Chaser>
+    <Next>
+     <Key></Key>
+    </Next>
+    <Previous>
+     <Key></Key>
+    </Previous>
+    <Playback>
+     <Key></Key>
+    </Playback>
+    <WindowState Visible="True" X="0" Y="0" Width="300" Height="220"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </CueList>
+   <AudioTriggers Caption="" BarsNumber="16" ID="1">
+    <WindowState Visible="True" X="610" Y="85" Width="300" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <VolumeBar Divisor="1" Index="1000" Type="3" MinThreshold="12" WidgetID="0" Name="Volume Bar" MaxThreshold="51"/>
+   </AudioTriggers>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

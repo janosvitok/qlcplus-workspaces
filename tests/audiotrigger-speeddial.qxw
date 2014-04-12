@@ -1,0 +1,52 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine/>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <AudioTriggers ID="0" BarsNumber="16" Caption="">
+    <WindowState Visible="True" Width="300" Height="200" X="180" Y="90"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <VolumeBar Divisor="4" WidgetID="1" Name="Volume Bar" MaxThreshold="204" Index="1000" Type="3" MinThreshold="51"/>
+   </AudioTriggers>
+   <SpeedDial SpeedTypes="4" ID="1" Caption="Duration">
+    <WindowState Visible="True" Width="200" Height="175" X="780" Y="110"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap/>
+   </SpeedDial>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ValueMode="Reduce" SliderMode="Normal" ChannelMode="Intensity"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

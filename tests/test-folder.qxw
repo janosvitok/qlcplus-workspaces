@@ -1,0 +1,261 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>4</ID>
+   <Name>Volkslicht #5</Name>
+   <Universe>0</Universe>
+   <Address>52</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>5</ID>
+   <Name>Volkslicht #6</Name>
+   <Universe>0</Universe>
+   <Address>65</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>6</ID>
+   <Name>Volkslicht #7</Name>
+   <Universe>0</Universe>
+   <Address>78</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>7</ID>
+   <Name>Volkslicht #8</Name>
+   <Universe>0</Universe>
+   <Address>91</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>a</Name>
+   <Size X="4" Y="4"/>
+   <Head X="1" Y="3" Fixture="5">0</Head>
+   <Head X="0" Y="2" Fixture="4">0</Head>
+   <Head X="1" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="2" Fixture="7">0</Head>
+   <Head X="0" Y="1" Fixture="3">0</Head>
+   <Head X="2" Y="3" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="1">0</Head>
+   <Head X="3" Y="1" Fixture="0">0</Head>
+  </FixtureGroup>
+  <Function Type="RGBMatrix" Path="New folder" Name="New RGB Matrix 0" ID="0">
+   <Speed Duration="460" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Image">
+    <Filename>/home/janek/2012-02-07-214237_1920x1200_scrot.png</Filename>
+    <Animation>Horizontal</Animation>
+    <Offset X="0" Y="0"/>
+   </Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4278233855</EndColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="EFX" Name="New EFX 1" ID="1">
+   <Fixture>
+    <ID>0</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>4</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>5</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>6</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>7</ID>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Line</Algorithm>
+   <Width>127</Width>
+   <Height>0</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Caption="New RGB Matrix 0" Icon="" ID="0">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="True" X="370" Y="380" Height="50" Width="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider Caption="Slider 1" InvertedAppearance="false" WidgetStyle="Slider" ID="1">
+    <WindowState Visible="True" X="90" Y="285" Height="200" Width="60"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" Value="0" LowLimit="0"/>
+    <Playback>
+     <Function>0</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="Slider 2" InvertedAppearance="false" WidgetStyle="Slider" ID="2">
+    <WindowState Visible="True" X="150" Y="285" Height="200" Width="60"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level HighLimit="255" Value="0" LowLimit="0"/>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="New EFX 1" Icon="" ID="3">
+    <Function ID="1"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Visible="True" X="330" Y="145" Height="50" Width="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Height="1080" Width="1920"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

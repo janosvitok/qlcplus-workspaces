@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Output Plugin="ArtNet" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0">
+    <Feedback Plugin="MIDI" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Function Type="EFX" Name="New EFX 0" ID="0">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>90</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>3</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>270</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="1903000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>120</Width>
+   <Height>120</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Monitor DisplayMode="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" ID="0" Caption="New EFX 0">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="55" Y="75" Height="50" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <XYPad ID="1" Caption="XY Pad" InvertedAppearance="0">
+    <Fixture ID="0" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Fixture ID="1" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Fixture ID="2" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Fixture ID="3" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Pan Position="128"/>
+    <Tilt Position="125"/>
+    <WindowState Width="700" X="250" Y="15" Height="705" Visible="True"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </XYPad>
+   <SpeedDial SpeedTypes="4" ID="2" Caption="Duration">
+    <WindowState Width="200" X="15" Y="185" Height="175" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap/>
+    <Function>0</Function>
+   </SpeedDial>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

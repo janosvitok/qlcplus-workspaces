@@ -1,0 +1,85 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <ChannelsGroup ID="0" Name="Pan" Value="0">0,0,1,0,2,0,3,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Tilt" Value="0">0,2,1,2,2,2,3,2</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="R" Value="0">0,5,1,5,2,5,3,5</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="G" Value="0">0,6,1,6,2,6,3,6</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="B" Value="0">0,7,1,7,2,7,3,7</ChannelsGroup>
+  <Function Type="Show" ID="0" Name="New Show 0">
+   <TimeDivision Type="Time" BPM="120"/>
+   <Track SceneID="1" ID="0" isMute="0" Name="New Scene 1"/>
+  </Function>
+  <Function Type="Scene" ID="1" Name="New Scene 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroups>2,3,4</ChannelGroups>
+   <FixtureVal ID="0">5,190,6,0,7,0</FixtureVal>
+   <FixtureVal ID="1">5,190,6,0</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

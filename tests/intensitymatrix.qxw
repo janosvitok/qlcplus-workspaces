@@ -1,0 +1,146 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.5.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>4</ID>
+   <Name>Dimmers #1</Name>
+   <Universe>0</Universe>
+   <Address>52</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>5</ID>
+   <Name>Dimmers #2</Name>
+   <Universe>0</Universe>
+   <Address>53</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>6</ID>
+   <Name>Dimmers #3</Name>
+   <Universe>0</Universe>
+   <Address>54</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>7</ID>
+   <Name>Dimmers #4</Name>
+   <Universe>0</Universe>
+   <Address>55</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>14 Channel</Mode>
+   <ID>8</ID>
+   <Name>Gigabar II</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>g</Name>
+   <Size Y="4" X="3"/>
+   <Head Y="2" Fixture="8" X="2">2</Head>
+   <Head Y="3" Fixture="8" X="2">3</Head>
+   <Head Y="2" Fixture="2" X="0">0</Head>
+   <Head Y="0" Fixture="8" X="2">0</Head>
+   <Head Y="2" Fixture="6" X="1">0</Head>
+   <Head Y="3" Fixture="3" X="0">0</Head>
+   <Head Y="1" Fixture="8" X="2">1</Head>
+   <Head Y="0" Fixture="0" X="0">0</Head>
+   <Head Y="3" Fixture="7" X="1">0</Head>
+   <Head Y="0" Fixture="4" X="1">0</Head>
+   <Head Y="1" Fixture="1" X="0">0</Head>
+   <Head Y="1" Fixture="5" X="1">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="RGBMatrix" Name="New RGB Matrix 0">
+   <Speed Duration="500" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Rows</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4278190080</EndColor>
+   <PreferIntensityChannels>1</PreferIntensityChannels>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ValueMode="Reduce" ChannelMode="Intensity" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

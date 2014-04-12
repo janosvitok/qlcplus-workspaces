@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Svetla" ID="0" Passthrough="0"/>
+   <Universe Name="BCF2000" ID="1" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>0</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>8</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="1" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="2" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="3" ID="2">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,0,4,0,5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="4" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="New Chaser 4" ID="4">
+   <Speed Duration="4294967294" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">0</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">1</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">2</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">3</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="1000">5</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="1000">6</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="1000">7</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="1000">8</Step>
+  </Function>
+  <Function Type="Scene" Name="5" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,255,5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="6" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,255,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="7" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,255,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="8" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
+  </Function>
+  <Monitor ShowLabels="0" DisplayMode="1">
+   <Grid Width="2" Height="2" Units="0"/>
+   <FxItem ID="0" YPos="0" XPos="0" GelColor="#ffffff"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <CueList ID="0" Caption="Cue list">
+    <Chaser>4</Chaser>
+    <Next>
+     <Key></Key>
+    </Next>
+    <Previous>
+     <Key></Key>
+    </Previous>
+    <Playback>
+     <Key></Key>
+    </Playback>
+    <WindowState Width="325" X="630" Y="325" Height="380" Visible="True"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </CueList>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

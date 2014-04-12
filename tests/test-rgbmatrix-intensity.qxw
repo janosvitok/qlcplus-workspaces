@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Output Plugin="ArtNet" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>0</ID>
+   <Name>Dimmers</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>17</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>4</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>43</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Mega Bar LED</Model>
+   <Mode>11 Channels</Mode>
+   <ID>5</ID>
+   <Name>Mega Bar LED</Name>
+   <Universe>0</Universe>
+   <Address>56</Address>
+   <Channels>11</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>d</Name>
+   <Size X="4" Y="1"/>
+   <Head Fixture="0" X="0" Y="0">0</Head>
+   <Head Fixture="0" X="1" Y="0">1</Head>
+   <Head Fixture="0" X="2" Y="0">2</Head>
+   <Head Fixture="0" X="3" Y="0">3</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>glp</Name>
+   <Size X="4" Y="1"/>
+   <Head Fixture="1" X="0" Y="0">0</Head>
+   <Head Fixture="2" X="1" Y="0">0</Head>
+   <Head Fixture="3" X="2" Y="0">0</Head>
+   <Head Fixture="4" X="3" Y="0">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>adj</Name>
+   <Size X="3" Y="1"/>
+   <Head Fixture="5" X="0" Y="0">0</Head>
+   <Head Fixture="5" X="1" Y="0">1</Head>
+   <Head Fixture="5" X="2" Y="0">2</Head>
+  </FixtureGroup>
+  <Function Type="RGBMatrix" Name="dimmers" ID="0">
+   <Speed Duration="500" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294967295</MonoColor>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function Type="RGBMatrix" Name="glp" ID="1">
+   <Speed Duration="500" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">Full Columns</Algorithm>
+   <MonoColor>4294901760</MonoColor>
+   <FixtureGroup>1</FixtureGroup>
+  </Function>
+  <Monitor DisplayMode="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>1</ValueStyle>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Icon="" ID="0" Caption="dimmers">
+    <Function ID="0"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">50</Intensity>
+    <WindowState Width="50" X="170" Y="125" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+   <Slider WidgetStyle="Slider" ID="1" Caption="Slider 1" InvertedAppearance="false">
+    <WindowState Width="60" X="0" Y="0" Height="200" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Submaster</SliderMode>
+    <Level HighLimit="255" LowLimit="0" Value="0"/>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Button Icon="" ID="2" Caption="glp">
+    <Function ID="1"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+    <WindowState Width="50" X="245" Y="125" Height="50" Visible="False"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

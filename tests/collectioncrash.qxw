@@ -1,0 +1,136 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.5.1</Version>
+  <Author>Beki,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>0</ID>
+   <Name>Dimmers #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>Generic</Mode>
+   <ID>1</ID>
+   <Name>Dimmers #2</Name>
+   <Universe>0</Universe>
+   <Address>1</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="1 on" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="2 on" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="1 off" ID="2">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="2 off" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function Type="Collection" Name="1" ID="4">
+   <Step Number="0">3</Step>
+   <Step Number="1">2</Step>
+  </Function>
+  <Function Type="Collection" Name="2" ID="5">
+   <Step Number="0">2</Step>
+   <Step Number="1">1</Step>
+  </Function>
+  <Function Type="Collection" Name="3" ID="6">
+   <Step Number="0">0</Step>
+   <Step Number="1">3</Step>
+  </Function>
+  <Function Type="Chaser" Name="1-2" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">4</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">5</Step>
+  </Function>
+  <Function Type="Chaser" Name="2-3" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Default" FadeIn="Default"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">5</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">6</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame ID="0" Caption="">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="200" X="0" Y="0" Height="200" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <Button Icon="" ID="1" Caption="1-2">
+     <Function ID="7"/>
+     <Action>Toggle</Action>
+     <Key>1</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="50" X="30" Y="60" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+    <Button Icon="" ID="2" Caption="2-3">
+     <Function ID="8"/>
+     <Action>Toggle</Action>
+     <Key>2</Key>
+     <Intensity Adjust="False">100</Intensity>
+     <WindowState Width="50" X="95" Y="60" Height="50" Visible="True"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

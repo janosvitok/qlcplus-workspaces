@@ -1,0 +1,78 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Entour</Model>
+   <Mode>16 Ex (16 Bit Extended)</Mode>
+   <ID>0</ID>
+   <Name>MAC250 Entour</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>18</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Event Bar LED</Model>
+   <Mode>12 Channel Mode</Mode>
+   <ID>1</ID>
+   <Name>Event Bar LED</Name>
+   <Universe>0</Universe>
+   <Address>15</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>26 Channel</Mode>
+   <ID>3</ID>
+   <Name>Gigabar II</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>26</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="New Scene 0" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="2">5,0,6,0,7,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="New Scene 1" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="3">2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

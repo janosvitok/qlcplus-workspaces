@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.7.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="0">
+    <Output Plugin="ArtNet" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1" Passthrough="0">
+    <Feedback Plugin="MIDI" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2" Passthrough="0"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="0"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>3 Channel</Mode>
+   <ID>0</ID>
+   <Name>Gigabar II #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>3 Channel</Mode>
+   <ID>1</ID>
+   <Name>Gigabar II #2</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>3 Channel</Mode>
+   <ID>2</ID>
+   <Name>Gigabar II #3</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>3 Channel</Mode>
+   <ID>3</ID>
+   <Name>Gigabar II #4</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="New Scene 0" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="New Scene 0 (Copy)" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0</FixtureVal>
+  </Function>
+  <Function Type="EFX" Name="New EFX 2" ID="2">
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function Type="EFX" Name="New EFX 2 (Copy)" ID="3">
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

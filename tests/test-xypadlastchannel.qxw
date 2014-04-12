@@ -1,0 +1,127 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Futurelight</Manufacturer>
+   <Model>DJScan200</Model>
+   <Mode>Mode 1</Mode>
+   <ID>0</ID>
+   <Name>DJScan200 #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Futurelight</Manufacturer>
+   <Model>DJScan200</Model>
+   <Mode>Mode 1</Mode>
+   <ID>1</ID>
+   <Name>DJScan200 #2</Name>
+   <Universe>0</Universe>
+   <Address>4</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Futurelight</Manufacturer>
+   <Model>DJScan200</Model>
+   <Mode>Mode 1</Mode>
+   <ID>2</ID>
+   <Name>DJScan200 #3</Name>
+   <Universe>0</Universe>
+   <Address>8</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Function Type="EFX" Name="New EFX 0" ID="0">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <Fixture>
+    <ID>2</ID>
+    <Head>0</Head>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+    <Intensity>255</Intensity>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed Duration="20000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <XYPad ID="0" Caption="XY Pad" InvertedAppearance="0">
+    <Fixture ID="0" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Fixture ID="1" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Fixture ID="2" Head="0">
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="X"/>
+     <Axis HighLimit="1" LowLimit="0" Reverse="False" ID="Y"/>
+    </Fixture>
+    <Pan Position="18"/>
+    <Tilt Position="0"/>
+    <WindowState Width="230" X="0" Y="0" Height="230" Visible="False"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </XYPad>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

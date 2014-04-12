@@ -1,0 +1,71 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.0</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Blizzard Lighting</Manufacturer>
+   <Model>Puck Fab5</Model>
+   <Mode>12 Channel</Mode>
+   <ID>0</ID>
+   <Name>Puck Fab5</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>12</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Robe</Manufacturer>
+   <Model>Robin 600E Beam</Model>
+   <Mode>Mode 1</Mode>
+   <ID>1</ID>
+   <Name>Robin 600E Beam</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>26</Channels>
+  </Fixture>
+  <Function ID="0" Name="New Scene 0" Type="Scene">
+   <Speed FadeOut="0" Duration="0" FadeIn="0"/>
+   <FixtureVal ID="0">5,134</FixtureVal>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider ID="0" InvertedAppearance="false" Caption="Slider 0" WidgetStyle="Slider">
+    <WindowState Width="60" Visible="False" X="300" Y="465" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Amber">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="16">
+     <Channel Fixture="0">5</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster ValueMode="Reduce" SliderMode="Normal" ChannelMode="Intensity"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

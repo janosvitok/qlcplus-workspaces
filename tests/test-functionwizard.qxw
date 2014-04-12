@@ -1,0 +1,1196 @@
+<!DOCTYPE Workspace>
+<Workspace CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.6.1</Version>
+  <Author>Jano Svitok,,,</Author>
+ </Creator>
+ <Engine>
+  <Fixture>
+   <Manufacturer>Geni</Manufacturer>
+   <Model>OBY 5</Model>
+   <Mode>Pan/Tilt 16 bit</Mode>
+   <ID>0</ID>
+   <Name>OBY 5</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>16</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Pro-Lights</Manufacturer>
+   <Model>XP575 Spot</Model>
+   <Mode>XP575-Spot</Mode>
+   <ID>1</ID>
+   <Name>XP575 Spot</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Function Type="Scene" Name="Shutter closed - XP575 Spot" ID="0">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">1,3</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Strobe from slow to fast - XP575 Spot" ID="1">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">1,131</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Shutter macros chaser - XP575 Spot" ID="2">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">0</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">1</Step>
+  </Function>
+  <Function Type="Scene" Name="White - XP575 Spot" ID="3">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,6</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Steel Blue - XP575 Spot" ID="4">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rose Pink - XP575 Spot" ID="5">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,34</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Yellow - XP575 Spot" ID="6">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,48</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Pale Blue - XP575 Spot" ID="7">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,62</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Central Orange - XP575 Spot" ID="8">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,76</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Pale Blue - Central Orange - XP575 Spot" ID="9">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,90</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Steel Blue - Orange - XP575 Spot" ID="10">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,104</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Green - Yellow - XP575 Spot" ID="11">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,118</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rose Pink - Moss Green - XP575 Spot" ID="12">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,132</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rose Pink- Yellow - Steel Blue - Green - XP575 Spot" ID="13">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,146</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Yellow - Moss Green - Orange - Steel Blue - XP575 Spot" ID="14">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,160</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Change - XP575 Spot" ID="15">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">3,211</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Colour macros chaser - XP575 Spot" ID="16">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">3</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">4</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">5</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">6</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">7</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">8</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">9</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">10</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">11</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">12</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="0">13</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">14</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">15</Step>
+  </Function>
+  <Function Type="Scene" Name="Gobo Angle - XP575 Spot" ID="17">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">6,63</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rotate Right - Slow To Fast - XP575 Spot" ID="18">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">6,159</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rotate Left - Fast To Slow - XP575 Spot" ID="19">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="1">6,223</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Gobo macros chaser - XP575 Spot" ID="20">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">17</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">18</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">19</Step>
+  </Function>
+  <Function Type="Scene" Name="Closed - OBY 5" ID="21">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">8,0</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Diameter min to max - OBY 5" ID="22">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">8,80</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Iris-in slow to fast - OBY 5" ID="23">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">8,183</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Iris-out fast to slow - OBY 5" ID="24">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">8,231</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Open - OBY 5" ID="25">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">8,255</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Shutter macros chaser - OBY 5" ID="26">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">21</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">22</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">23</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">24</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">25</Step>
+  </Function>
+  <Function Type="Scene" Name="White - OBY 5" ID="27">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,6</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Cyan - OBY 5" ID="28">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,20</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Magenta - OBY 5" ID="29">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,34</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Yellow - OBY 5" ID="30">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,48</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CTB - OBY 5" ID="31">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,62</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CTO - OBY 5" ID="32">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,76</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="CTB - CTO - OBY 5" ID="33">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,90</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Cyan - Orange - OBY 5" ID="34">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,104</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Green - Yellow - OBY 5" ID="35">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,118</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Pink - Moss Green - OBY 5" ID="36">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,132</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="4 Colours 1 - OBY 5" ID="37">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,146</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="4 Colours 2 - OBY 5" ID="38">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,160</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Color wheel rotation forward - OBY 5" ID="39">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,174</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Color wheel rotation backward - OBY 5" ID="40">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">3,218</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Colour macros chaser - OBY 5" ID="41">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">27</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">28</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">29</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">30</Step>
+   <Step Number="4" FadeOut="0" FadeIn="0" Hold="0">31</Step>
+   <Step Number="5" FadeOut="0" FadeIn="0" Hold="0">32</Step>
+   <Step Number="6" FadeOut="0" FadeIn="0" Hold="0">33</Step>
+   <Step Number="7" FadeOut="0" FadeIn="0" Hold="0">34</Step>
+   <Step Number="8" FadeOut="0" FadeIn="0" Hold="0">35</Step>
+   <Step Number="9" FadeOut="0" FadeIn="0" Hold="0">36</Step>
+   <Step Number="10" FadeOut="0" FadeIn="0" Hold="0">37</Step>
+   <Step Number="11" FadeOut="0" FadeIn="0" Hold="0">38</Step>
+   <Step Number="12" FadeOut="0" FadeIn="0" Hold="0">39</Step>
+   <Step Number="13" FadeOut="0" FadeIn="0" Hold="0">40</Step>
+  </Function>
+  <Function Type="Scene" Name="Gobo angle 0° - 360° - OBY 5" ID="42">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,63</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rotation clockwise slow to fast - OBY 5" ID="43">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,159</FixtureVal>
+  </Function>
+  <Function Type="Scene" Name="Rotation counterclockwise fast to slow - OBY 5" ID="44">
+   <Speed Duration="0" FadeOut="0" FadeIn="0"/>
+   <FixtureVal ID="0">6,223</FixtureVal>
+  </Function>
+  <Function Type="Chaser" Name="Gobo macros chaser - OBY 5" ID="45">
+   <Speed Duration="10000" FadeOut="0" FadeIn="3000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">42</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">43</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">44</Step>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Frame ID="0" Caption="Shutter macros - XP575 Spot">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="530" X="10" Y="10" Height="270" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="1" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="130" X="10" Y="40" Height="100" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="2" Caption="Shutter closed">
+      <Function ID="0"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="3" Caption="Strobe from slow to fast">
+      <Function ID="1"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="4" Caption="Shutter macros chaser">
+     <Chaser>2</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="150" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="5" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="460" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="1">1</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="6" Caption="Colour macros - XP575 Spot">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="650" X="550" Y="10" Height="330" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="7" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="250" X="10" Y="40" Height="280" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="8" Caption="White">
+      <Function ID="3"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="9" Caption="Steel Blue">
+      <Function ID="4"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="10" Caption="Rose Pink">
+      <Function ID="5"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="11" Caption="Yellow">
+      <Function ID="6"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="12" Caption="Pale Blue">
+      <Function ID="7"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="13" Caption="Central Orange">
+      <Function ID="8"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="14" Caption="Pale Blue - Central Orange">
+      <Function ID="9"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="15" Caption="Steel Blue - Orange">
+      <Function ID="10"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="16" Caption="Green - Yellow">
+      <Function ID="11"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="17" Caption="Rose Pink - Moss Green">
+      <Function ID="12"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="18" Caption="Rose Pink- Yellow - Steel Blue - Green">
+      <Function ID="13"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="19" Caption="Yellow - Moss Green - Orange - Steel Blue">
+      <Function ID="14"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="20" Caption="Change">
+      <Function ID="15"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="220" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="21" Caption="Colour macros chaser">
+     <Chaser>16</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="270" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="22" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="580" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="1">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="23" Caption="Gobo macros - XP575 Spot">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="590" X="1210" Y="10" Height="270" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="24" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="190" X="10" Y="40" Height="100" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="25" Caption="Gobo Angle">
+      <Function ID="17"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="26" Caption="Rotate Right - Slow To Fast">
+      <Function ID="18"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="27" Caption="Rotate Left - Fast To Slow">
+      <Function ID="19"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="28" Caption="Gobo macros chaser">
+     <Chaser>20</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="210" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="29" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="520" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="1">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="30" Caption="Shutter macros - OBY 5">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="650" X="730" Y="655" Height="270" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="31" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="250" X="10" Y="40" Height="160" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="32" Caption="Closed">
+      <Function ID="21"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="33" Caption="Diameter min to max">
+      <Function ID="22"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="34" Caption="Iris-in slow to fast">
+      <Function ID="23"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="35" Caption="Iris-out fast to slow">
+      <Function ID="24"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="36" Caption="Open">
+      <Function ID="25"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="37" Caption="Shutter macros chaser">
+     <Chaser>26</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="270" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="38" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="580" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="0">8</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="39" Caption="Colour macros - OBY 5">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="650" X="65" Y="345" Height="330" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="40" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="250" X="0" Y="50" Height="280" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="41" Caption="White">
+      <Function ID="27"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="42" Caption="Cyan">
+      <Function ID="28"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="43" Caption="Magenta">
+      <Function ID="29"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294902015</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="44" Caption="Yellow">
+      <Function ID="30"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967040</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="45" Caption="CTB">
+      <Function ID="31"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4289396735</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="46" Caption="CTO">
+      <Function ID="32"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294967210</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="47" Caption="CTB - CTO">
+      <Function ID="33"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4289396735</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="48" Caption="Cyan - Orange">
+      <Function ID="34"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="100" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255615</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="49" Caption="Green - Yellow">
+      <Function ID="35"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4278255360</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="50" Caption="Pink - Moss Green">
+      <Function ID="36"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4292842239</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="51" Caption="4 Colours 1">
+      <Function ID="37"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="52" Caption="4 Colours 2">
+      <Function ID="38"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="190" Y="160" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="53" Caption="Color wheel rotation forward">
+      <Function ID="39"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="220" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="54" Caption="Color wheel rotation backward">
+      <Function ID="40"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="220" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="55" Caption="Colour macros chaser">
+     <Chaser>41</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="270" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="56" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="580" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="0">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Frame ID="57" Caption="Gobo macros - OBY 5">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Width="590" X="715" Y="350" Height="270" Visible="True"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <Collapsed>False</Collapsed>
+    <SoloFrame ID="58" Caption="Presets solo frame">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Width="190" X="10" Y="40" Height="100" Visible="True"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <Collapsed>False</Collapsed>
+     <Button Icon="" ID="59" Caption="Gobo angle 0° - 360°">
+      <Function ID="42"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="10" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="60" Caption="Rotation clockwise slow to fast">
+      <Function ID="43"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="70" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+     <Button Icon="" ID="61" Caption="Rotation counterclockwise fast to slow">
+      <Function ID="44"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <WindowState Width="50" X="130" Y="40" Height="50" Visible="True"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+     </Button>
+    </SoloFrame>
+    <CueList ID="62" Caption="Gobo macros chaser">
+     <Chaser>45</Chaser>
+     <Next>
+      <Key></Key>
+     </Next>
+     <Previous>
+      <Key></Key>
+     </Previous>
+     <Playback>
+      <Key></Key>
+     </Playback>
+     <WindowState Width="300" X="210" Y="40" Height="220" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+    </CueList>
+    <Slider WidgetStyle="Slider" ID="63" Caption="Click &amp; Go Macro" InvertedAppearance="false">
+     <WindowState Width="60" X="520" Y="40" Height="200" Visible="True"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset">Level</SliderMode>
+     <Level HighLimit="255" LowLimit="0" Value="0">
+      <Channel Fixture="0">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

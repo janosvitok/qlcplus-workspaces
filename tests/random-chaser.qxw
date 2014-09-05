@@ -3,7 +3,7 @@
 <Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.7.0</Version>
+  <Version>4.7.1 GIT</Version>
   <Author>Jano Svitok,,,</Author>
  </Creator>
  <Engine>
@@ -37,10 +37,10 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,0,5,0,6,0,7,0</FixtureVal>
   </Function>
-  <Function Type="Chaser" Name="New Chaser 4" ID="4">
-   <Speed Duration="4294967294" FadeOut="0" FadeIn="0"/>
+  <Function Type="Chaser" Name="chaser8" ID="4">
+   <Speed Duration="2000" FadeOut="0" FadeIn="0"/>
    <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
+   <RunOrder>Random</RunOrder>
    <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
    <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">0</Step>
    <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">1</Step>
@@ -67,6 +67,16 @@
    <Speed Duration="0" FadeOut="0" FadeIn="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,255</FixtureVal>
   </Function>
+  <Function Type="Chaser" Name="chaser4" ID="9">
+   <Speed Duration="2000" FadeOut="0" FadeIn="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes Duration="Common" FadeOut="Common" FadeIn="Common"/>
+   <Step Number="0" FadeOut="0" FadeIn="0" Hold="0">0</Step>
+   <Step Number="1" FadeOut="0" FadeIn="0" Hold="0">1</Step>
+   <Step Number="2" FadeOut="0" FadeIn="0" Hold="0">2</Step>
+   <Step Number="3" FadeOut="0" FadeIn="0" Hold="0">3</Step>
+  </Function>
   <Monitor ShowLabels="0" DisplayMode="1">
    <Grid Width="2" Height="2" Units="0"/>
    <FxItem ID="0" YPos="0" XPos="0" GelColor="#ffffff"/>
@@ -92,7 +102,7 @@
     <Playback>
      <Key></Key>
     </Playback>
-    <WindowState Width="325" X="630" Y="325" Height="380" Visible="True"/>
+    <WindowState Width="650" X="70" Y="20" Height="375" Visible="True"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -101,6 +111,40 @@
      <Font>Default</Font>
     </Appearance>
    </CueList>
+   <CueList ID="1" Caption="Cue list">
+    <Chaser>9</Chaser>
+    <Next>
+     <Key></Key>
+    </Next>
+    <Previous>
+     <Key></Key>
+    </Previous>
+    <Playback>
+     <Key></Key>
+    </Playback>
+    <WindowState Width="760" X="60" Y="450" Height="370" Visible="True"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+   </CueList>
+   <SpeedDial SpeedTypes="4" ID="2" Caption="Duration">
+    <WindowState Width="200" X="965" Y="55" Height="175" Visible="True"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Tap/>
+    <Function>4</Function>
+    <Function>9</Function>
+   </SpeedDial>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>

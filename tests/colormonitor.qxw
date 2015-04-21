@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="SimpleDesk">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.4 GIT</Version>
+  <Author>Jano Svitok</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="False"/>
+   <Universe Name="Universe 2" ID="1" Passthrough="False"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Eurolite</Manufacturer>
+   <Model>TS-255</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>TS-255</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Krypton</Model>
+   <Mode>16 Bt (16 Bit Mode)</Mode>
+   <ID>1</ID>
+   <Name>MAC250 Krypton</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Coemar</Manufacturer>
+   <Model>ProWash 250 LX</Model>
+   <Mode>Standard</Mode>
+   <ID>2</ID>
+   <Name>ProWash 250 LX</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Clay Paky</Manufacturer>
+   <Model>Alpha Beam 300</Model>
+   <Mode>Option Stnd 1 - LinC Off, FulC Off, Rain On</Mode>
+   <ID>3</ID>
+   <Name>Alpha Beam 300</Name>
+   <Universe>0</Universe>
+   <Address>34</Address>
+   <Channels>14</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>4</ID>
+   <Name>Volkslicht</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Monitor ShowLabels="1" DisplayMode="1">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="1" Height="1" Units="0"/>
+   <FxItem ID="0" YPos="-7.95229" XPos="17.8926"/>
+   <FxItem ID="1" YPos="-30.5677" XPos="510.917"/>
+   <FxItem ID="2" YPos="493.042" XPos="332.008"/>
+   <FxItem ID="3" YPos="417.391" XPos="594.347"/>
+   <FxItem ID="4" YPos="567.686" XPos="8.73362"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

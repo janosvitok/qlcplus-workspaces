@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.8.6 GIT</Version>
+  <Author>Jano Svitok</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="False"/>
+   <Universe Name="Universe 2" ID="1" Passthrough="False"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Krypton</Model>
+   <Mode>16 Ex (16 Bit Extended)</Mode>
+   <ID>0</ID>
+   <Name>MAC250 Krypton #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>17</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Krypton</Model>
+   <Mode>16 Ex (16 Bit Extended)</Mode>
+   <ID>1</ID>
+   <Name>MAC250 Krypton #2</Name>
+   <Universe>0</Universe>
+   <Address>17</Address>
+   <Channels>17</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Krypton</Model>
+   <Mode>16 Ex (16 Bit Extended)</Mode>
+   <ID>2</ID>
+   <Name>MAC250 Krypton #3</Name>
+   <Universe>0</Universe>
+   <Address>34</Address>
+   <Channels>17</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Martin</Manufacturer>
+   <Model>MAC250 Krypton</Model>
+   <Mode>16 Ex (16 Bit Extended)</Mode>
+   <ID>3</ID>
+   <Name>MAC250 Krypton #4</Name>
+   <Universe>0</Universe>
+   <Address>51</Address>
+   <Channels>17</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>4</ID>
+   <Name>Volkslicht #1</Name>
+   <Universe>0</Universe>
+   <Address>68</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>5</ID>
+   <Name>Volkslicht #2</Name>
+   <Universe>0</Universe>
+   <Address>81</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>6</ID>
+   <Name>Volkslicht #3</Name>
+   <Universe>0</Universe>
+   <Address>94</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>7</ID>
+   <Name>Volkslicht #4</Name>
+   <Universe>0</Universe>
+   <Address>107</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Monitor ShowLabels="0" DisplayMode="2">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="5" Units="0"/>
+   <Fx3dItem ZPos="5" ID="0" YPos="8" XPos="-6" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="5" ID="1" YPos="8" XPos="-2" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="5" ID="2" YPos="8" XPos="2" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="5" ID="3" YPos="8" XPos="6" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="7" ID="4" YPos="6" XPos="-6" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="7" ID="5" YPos="6" XPos="-2" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="7" ID="6" YPos="6" XPos="2" ZRot="0" YRot="0" XRot="0"/>
+   <Fx3dItem ZPos="7" ID="7" YPos="6" XPos="6" ZRot="0" YRot="0" XRot="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

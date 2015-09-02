@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="SimpleDesk">
+ <Creator>
+  <Name>Q Light Controller 3D</Name>
+  <Version>4.8.6 GIT</Version>
+  <Author>Jano Svitok</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0" Passthrough="False"/>
+   <Universe Name="Universe 2" ID="1" Passthrough="False"/>
+   <Universe Name="Universe 3" ID="2" Passthrough="False"/>
+   <Universe Name="Universe 4" ID="3" Passthrough="False"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>0</ID>
+   <Name>Volkslicht 1@97</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>1</ID>
+   <Name>Volkslicht 2@113</Name>
+   <Universe>0</Universe>
+   <Address>112</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>2</ID>
+   <Name>Volkslicht 3@129</Name>
+   <Universe>0</Universe>
+   <Address>128</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>GLP</Manufacturer>
+   <Model>Volkslicht</Model>
+   <Mode>Normal</Mode>
+   <ID>3</ID>
+   <Name>Volkslicht 4@145</Name>
+   <Universe>0</Universe>
+   <Address>144</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>26 Channel</Mode>
+   <ID>4</ID>
+   <Name>Gigabar 1@17</Name>
+   <Universe>0</Universe>
+   <Address>16</Address>
+   <Channels>26</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Varytec</Manufacturer>
+   <Model>Gigabar II</Model>
+   <Mode>26 Channel</Mode>
+   <ID>5</ID>
+   <Name>Gigabar 2@49</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>26</Channels>
+  </Fixture>
+  <Monitor ShowLabels="0" DisplayMode="2">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="5" Units="0"/>
+   <Fx3dItem WRot="0" ZPos="7" ID="0" YPos="8" XPos="-3.5" ZRot="0" YRot="0" XRot="1"/>
+   <Fx3dItem WRot="0" ZPos="7" ID="1" YPos="8" XPos="-1.5" ZRot="0" YRot="0" XRot="1"/>
+   <Fx3dItem WRot="0" ZPos="7" ID="2" YPos="8" XPos="1.5" ZRot="0" YRot="0" XRot="1"/>
+   <Fx3dItem WRot="0" ZPos="7" ID="3" YPos="8" XPos="3.5" ZRot="0" YRot="0" XRot="1"/>
+   <Fx3dItem WRot="0.5" ZPos="7" ID="4" YPos="8" XPos="-2.5" ZRot="-0.5" YRot="0.5" XRot="0.5"/>
+   <Fx3dItem WRot="0.5" ZPos="7" ID="5" YPos="8" XPos="2.5" ZRot="-0.5" YRot="0.5" XRot="0.5"/>
+   <Camera YCenter="-6.83169" ZCenter="4.79905" ZEye="4.80569" YEye="-7.82189" XEye="4.52265" XUp="-0.00871401" YUp="0.00793275" ZUp="0.999931" XCenter="4.66214"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <Keyboard TapModifier="67108864"/>
+   <GrandMaster SliderMode="Normal" ChannelMode="Intensity" ValueMode="Reduce"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
+

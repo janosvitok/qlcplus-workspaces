@@ -1,0 +1,13 @@
+tilt striedavo
+tilt postupne
+tilt
+pan striedavo
+pan postupne
+pan
+kruh striedavo
+kruh postupne
+kruh
+osem striedavo - rychly pohyb, start z HORA
+osem postupne
+osem
+ALL-OSEM

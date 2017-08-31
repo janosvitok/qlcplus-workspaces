@@ -1,0 +1,42 @@
+hore = 18
+na kapelu = 17 128 / 53
+na ludi = 16 
+boky = 15
+
+
+Na strop:
+100 / 85
+106 / 85
+156 / 87
+142 / 77
+
+na ludi:
+128 / 59
+132 / 49
+136 / 53
+118 / 53
+
+na strop = rozptyl
+128 / 133
+128 / 129
+126 / 127
+144 / 121
+
+na kapelu 
+114 / 45
+126 / 37
+138 / 31
+128 /41
+
+HORIZONTAL / VERTICAL
+
+1 2 3
+4 5 6 
+7 8 9
+
+
+1 stage
+2 hore
+4 oltar
+6 strop
+9 lud 
